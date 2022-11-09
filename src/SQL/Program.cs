@@ -23,7 +23,9 @@ namespace sqltest
                     Console.WriteLine("Write a query to return a list of each invoice that contains flowers, sorted by invoice number");
                     Console.WriteLine("=========================================");
 
-                    String sql = @"";
+                    String sql = @"
+                    
+                    ";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
